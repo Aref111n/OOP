@@ -29,13 +29,13 @@ int main()
     cin >> a[i] ;
   cout << mini(a, n) << endl ;
 
-  //checking for integer array  
+  //checking for double array  
   double d[n+5] ;
   for(int i=0; i<n; i++)
     cin >> d[i] ;
   cout << mini(d, n) << endl ;
 
-  //checking for integer array  
+  //checking for string array  
   string s[n+5] ;
   for(int i=0; i<n; i++)
     cin >> s[i] ;
